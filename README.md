@@ -54,3 +54,45 @@ cpp-game-of-life-oop/
 │   ├── Grille.h ...
 │   └── Jeu.h ...
 └── data/                # Fichiers de configuration (.txt)
+```
+
+Installation et Compilation
+Ce projet utilise CMake avec FetchContent. Vous n'avez pas besoin d'installer la SFML manuellement, CMake la téléchargera et la compilera pour vous.
+
+Prérequis
+Compilateur C++ compatible C++17 (GCC, Clang, MSVC).
+
+CMake (Version 3.14 ou supérieure).
+
+Git.
+
+Étapes de build
+Cloner le dépôt
+
+Bash
+
+git clone [https://github.com/olivierrousseau1304-dotcom/cpp-game-of-life-oop.git](https://github.com/olivierrousseau1304-dotcom/cpp-game-of-life-oop.git)
+cd cpp-game-of-life-oop
+Générer et Compiler
+
+Bash
+
+mkdir build
+cd build
+cmake ..
+cmake --build .
+Lancer le jeu
+
+Linux/Mac : ./JeuDeLaVie
+
+Windows : Debug\JeuDeLaVie.exe (selon la config)
+
+🎮 Contrôles
+Souris : Interagir avec les éléments UI (Slider de zoom).
+
+Fenêtre : Redimensionnable à la volée.
+
+(Fonctionnalités à venir : Pause/Play avec Espace, Speed Control)
+
+👥 Auteurs
+Olivier Rousseau - Conception, Architecture et Développement
